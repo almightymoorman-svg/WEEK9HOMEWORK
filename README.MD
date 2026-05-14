@@ -41,49 +41,49 @@ Managed Instance Group configuration.
 
 # Resources Used
 
-Cloud NAT Docs  
+[Cloud NAT Docs](https://cloud.google.com/nat/docs/overview)  
 Used to understand how private VM instances can still access the internet without needing public IP addresses.
 
-GCP Private NAT Documentation  
+[GCP Private NAT Documentation  ](https://cloud.google.com/nat/docs/private-nat)
 Extra reading used for understanding NAT behavior and private access.
 
-Setup Global External HTTPS Load Balancer  
+[Setup Global External HTTPS Load Balancer ](https://cloud.google.com/load-balancing/docs/https) 
 Main reference used while writing the runbook and understanding the load balancer configuration.
 
-Deep Dive on Global External HTTPS Load Balancer (Google Blog)  
+[Deep Dive on Global External HTTPS Load Balancer (Google Blog)](https://cloud.google.com/blog/products/networking/how-googles-global-load-balancer-works)  
 Helped explain anycast and how Google routes traffic globally.
 
-CDN - Content Delivery Network - Explained  
+[CDN - Content Delivery Network - Explained](https://www.youtube.com/watch?v=Bsq5cKkS33I)  
 Watched before reading the Cloud CDN docs because I needed a better understanding of CDN concepts first.
 
-Cloud CDN Product Page  
+[Cloud CDN Product Page](https://cloud.google.com/cdn)  
 Used to confirm supported origin types and review the main features.
 
-GeeksforGeeks: What is Google Cloud CDN?  
+[GeeksforGeeks: What is Google Cloud CDN?](https://www.geeksforgeeks.org/what-is-google-cloud-cdn/)  
 Supplemental explanation that helped clarify caching and TTL behavior.
 
-Cloud CDN General Docs  
+[Cloud CDN General Docs  ](https://cloud.google.com/cdn/docs)
 Used for the cache-control and TTL questions in the Q&A.
 
-WAF basics  
+[WAF basics ](https://owasp.org/www-community/Web_Application_Firewall) 
 Background reading before learning Cloud Armor.
 
-Cloudflare WAF Glossary  
+https://www.cloudflare.com/learning/ddos/glossary/web-application-firewall-waf/  
 Helped explain the difference between a firewall and a WAF.
 
-Cloud Armor Product Overview  
+[Cloud Armor Product Overview  ](https://cloud.google.com/armor/docs)
 Used for understanding the main purpose of Cloud Armor.
 
-Cloud Armor Docs  
+[Cloud Armor Docs  ](https://cloud.google.com/armor/docs)
 Main reference for security rules, rate limiting, and reCAPTCHA related features.
 
-Blog: When to Use Cloud Armor  
+[Blog: When to Use Cloud Armor ](https://cloud.google.com/blog/products/identity-security/when-to-use-cloud-armor) 
 Used for understanding real world use cases.
 
-Blog: Blocking the Largest Layer 7 DDoS Attack  
+[Blog: Blocking the Largest Layer 7 DDoS Attac](https://cloud.google.com/blog/products/identity-security/how-google-cloud-blocked-largest-layer-7-ddos-attack)k  
 Helped explain Layer 7 attacks and why services like Cloud Armor matter.
 
-GCP VPC Tutorial  
+[GCP VPC Tutorial  ](https://www.youtube.com/watch?v=q0RpPCcVaFo)
 Reference used while building the VPC and subnet resources in Terraform.
 
 ---
